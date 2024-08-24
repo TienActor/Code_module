@@ -1,0 +1,19 @@
+# Loại bỏ file tạm thời và các file không cần thiết
+*.pyc
+*.pyo
+__pycache__/
+*.log
+*.swp
+*.egg-info/
+*.eggs/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Loại bỏ các thư mục build và node_modules nếu có
+static/lib/
+node_modules/
+dist/
+build/
