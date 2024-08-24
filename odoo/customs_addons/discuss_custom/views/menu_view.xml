@@ -1,0 +1,10 @@
+<odoo>
+    <record id="action_owl_external_libraries" model="ir.actions.client">
+        <field name="name">Owl Dropdown Menu</field>
+        <field name="tag">owl.DropdownMenu</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem id="menu_owl_external_libraries" name="Test_24_8" action="action_owl_external_libraries"  />    
+  
+</odoo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+  <t t-name='owl.DropdownMenu' owl='1'>
+    <h1 class="p-3">OWL handle user</h1>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" t-on-click="toggleDropdown">
+        <t t-esc="state.selectedUser"/>
+      </button>
+      <div t-if="state.showDropdown" class="dropdown-menu show">
+       
+          <selection class="dropdown-item" t-on-click.prevent="selectUser(user)"> <option t-foreach="state.users" t-as="user" t-key="user.id"/></selection>
+      
+      </div>
+    </div>
+  </t>
+</templates>  

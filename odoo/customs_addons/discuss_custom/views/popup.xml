@@ -1,0 +1,16 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem name="Odoo custom test"
+            id="odoo_custom"
+
+        />
+
+        <menuitem name="Odoo custom"
+            id="menu odoo item"
+            action="action_odoo_tutorial_view"
+            parent="odoo_custom"
+            sequence="10"
+        />
+    </data>
+</odoo> -->
